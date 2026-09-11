@@ -336,10 +336,14 @@ p:last-child{ margin-bottom:0; }
   font-size: clamp(1.7rem, 3.6vw, 2.6rem);
   color: var(--navy-deep);
   text-align: center;
-  max-width: 780px;
+  max-width: none;
   margin: 0 auto;
   line-height: 1.4;
   letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+@media (max-width: 900px){
+  .tagline{ white-space: normal; max-width: 640px; }
 }
 
 .glance{ padding: 64px 0; }
