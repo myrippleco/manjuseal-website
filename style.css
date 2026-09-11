@@ -322,28 +322,28 @@ p:last-child{ margin-bottom:0; }
   opacity: 0.35;
 }
 
-.tagline-section{ padding: 24px 0 52px; }
+.tagline-section{ padding: 16px 0 36px; }
 .tagline-rule{
-  width: 60px;
+  width: 44px;
   height: 2px;
   background: var(--forest);
-  margin: 0 auto 24px;
+  margin: 0 auto 16px;
 }
 .tagline{
   font-family: var(--serif);
   font-style: italic;
   font-weight: 500;
-  font-size: clamp(1.4rem, 2.6vw, 2rem);
-  color: var(--navy-deep);
+  font-size: clamp(1rem, 1.4vw, 1.15rem);
+  color: var(--forest);
   text-align: center;
   max-width: none;
   margin: 0 auto;
   line-height: 1.4;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.01em;
   white-space: nowrap;
 }
 @media (max-width: 900px){
-  .tagline{ white-space: normal; max-width: 640px; }
+  .tagline{ white-space: normal; max-width: 480px; }
 }
 
 .glance{ padding: 64px 0; }
