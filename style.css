@@ -333,7 +333,7 @@ p:last-child{ margin-bottom:0; }
   font-family: var(--serif);
   font-style: italic;
   font-weight: 500;
-  font-size: clamp(0.85rem, 1.1vw, 0.95rem);
+  font-size: clamp(0.92rem, 1.2vw, 1.02rem);
   color: var(--forest);
   text-align: center;
   max-width: none;
