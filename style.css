@@ -421,7 +421,8 @@ p:last-child{ margin-bottom:0; }
 .global-content p{ margin-bottom: 1em; text-shadow: 0 1px 10px rgba(9,20,30,0.5); }
 
 /* ---------- Full bio page ---------- */
-.bio-hero{ text-align:center; padding: 64px 0 56px; }
+.bio-hero{ text-align:center; padding: 64px 0 24px; }
+.bio-content{ padding-top: 24px; }
 .bio-hero-inner{ max-width: 640px; margin: 0 auto; }
 .bio-hero .eyebrow{ justify-content:center; }
 .bio-hero .hero-role{ margin-bottom: 0; }
